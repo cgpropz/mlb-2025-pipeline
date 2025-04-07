@@ -1,31 +1,29 @@
-name: Sync MLB PrizePicks Odds
+name: Sync MLB Odds Every 20 Minutes
 
 on:
   schedule:
-    - cron: "*/20 * * * *"  # every 20 minutes UTC
-  workflow_dispatch:       # manual run option
+    - cron: '*/20 * * * *'
+  workflow_dispatch:
 
 jobs:
-  run-odds-sync:
+  run-mlb-odds-sync:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+    - name: Checkout repo
+      uses: actions/checkout@v3
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: 3.9
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+    - name: Install requirements
+      run: pip install -r requirements.txt
 
-      - name: Write Google credentials from secret
-        run: |
-          echo "${{ secrets.GSHEET_CREDS }}" | base64 --decode > credentials.json
+    - name: Write Google credentials from secret
+      run: |
+        echo "${{ secrets.GOOGLE_CREDS }}" > credentials.json
 
-      - name: Run MLB Odds Scraper
-        run: python MLB_ODDS.py
+    - name: Run MLB ODDS sync script
+      run: python MLB_ODDS.py
