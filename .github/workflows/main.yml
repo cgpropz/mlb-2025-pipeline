@@ -1,0 +1,34 @@
+name: Daily MLB Scraper & Sheets Sync
+
+on:
+  schedule:
+    - cron: '0 3 * * *'   # 3:00 AM UTC daily
+  workflow_dispatch:
+
+jobs:
+  run-mlb-pipeline:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install requirements
+        run: pip install -r requirements.txt
+
+      - name: Write Google credentials from secret
+        run: echo "${{ secrets.GOOGLE_CREDS_JSON }}" > credentials.json
+
+      - name: Scrape gamelogs
+        run: python player_gamelog_batch_scraper.py
+
+      - name: Merge all gamelogs
+        run: python merge_gamelogs.py
+
+      - name: Upload to Google Sheets
+        run: python upload_to_sheets.py
