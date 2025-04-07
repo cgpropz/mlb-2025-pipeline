@@ -1,29 +1,28 @@
-name: Sync MLB Odds Every 20 Minutes
+name: Sync MLB PP Odds to Google Sheets
 
 on:
   schedule:
-    - cron: '*/20 * * * *'
-  workflow_dispatch:
+    - cron: '*/20 * * * *'  # every 20 minutes
+  workflow_dispatch:       # manual trigger
 
 jobs:
-  run-mlb-odds-sync:
+  scrape-and-update:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout repo
-      uses: actions/checkout@v3
+      - name: Checkout repo
+        uses: actions/checkout@v3
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.9'
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
 
-    - name: Install requirements
-      run: pip install -r requirements.txt
+      - name: Install dependencies
+        run: pip install -r requirements.txt
 
-    - name: Write Google credentials from secret
-      run: |
-        echo "${{ secrets.GOOGLE_CREDS }}" > credentials.json
-
-    - name: Run MLB ODDS sync script
-      run: python MLB_ODDS.py
+      - name: Run script
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS_JSON: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS_JSON }}
+        run: |
+          echo "$GOOGLE_APPLICATION_CREDENTIALS_JSON" > credentials.json
+          python MLB_ODDS.py
