@@ -23,7 +23,8 @@ jobs:
 
       - name: Write Google credentials from secret
         run: |
-          printf '%s' "${{ secrets.GOOGLE_CREDS_JSON }}" > credentials.json
+          echo "${{ secrets.GOOGLE_CREDS_JSON }}" | base64 --decode > credentials.json
+
 
 
       - name: Scrape gamelogs
