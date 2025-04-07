@@ -28,4 +28,4 @@ jobs:
           echo "${{ secrets.GSHEET_CREDS }}" | base64 --decode > credentials.json
 
       - name: Run MLB Odds Scraper
-        run: python mlb_prizepicks_sync.py
+        run: python MLB_ODDS.py
