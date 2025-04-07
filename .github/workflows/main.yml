@@ -23,8 +23,8 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Write Google credentials from secret
-        run: |
-          echo "${{ secrets.GOOGLE_CREDS_JSON }}" | base64 --decode > credentials.json
+        run: echo "${{ secrets.GOOGLE_CREDS_JSON }}" | base64 --decode > credentials.json
+
 
 
       - name: Track Roster & Injury Updates
