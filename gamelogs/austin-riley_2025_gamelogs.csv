@@ -1,0 +1,10 @@
+date,opponent,atBats,runs,hits,homeRuns,rbi,baseOnBalls,strikeOuts,avg,obp,slg,ops
+2025-03-27,San Diego Padres,5,1,1,1,1,0,1,.200,.200,.800,1.000
+2025-03-28,San Diego Padres,3,1,1,0,0,1,1,.250,.333,.750,1.083
+2025-03-29,San Diego Padres,3,0,0,0,0,1,1,.182,.308,.545,.853
+2025-03-30,San Diego Padres,3,0,0,0,0,0,1,.143,.250,.429,.679
+2025-03-31,Los Angeles Dodgers,4,0,0,0,0,0,3,.111,.200,.333,.533
+2025-04-01,Los Angeles Dodgers,4,0,0,0,0,0,3,.091,.167,.273,.440
+2025-04-02,Los Angeles Dodgers,5,0,1,0,0,0,1,.111,.172,.259,.431
+2025-04-04,Miami Marlins,4,0,2,0,2,0,1,.161,.235,.290,.525
+2025-04-05,Miami Marlins,4,0,0,0,0,0,2,.143,.211,.257,.468

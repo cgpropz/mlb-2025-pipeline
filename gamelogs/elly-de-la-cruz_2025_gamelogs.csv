@@ -1,0 +1,11 @@
+date,opponent,atBats,runs,hits,homeRuns,rbi,baseOnBalls,strikeOuts,avg,obp,slg,ops
+2025-03-27,San Francisco Giants,3,2,1,0,0,1,1,.333,.500,.333,.833
+2025-03-29,San Francisco Giants,4,0,1,0,1,0,2,.286,.375,.286,.661
+2025-03-30,San Francisco Giants,4,0,1,0,0,0,1,.273,.333,.273,.606
+2025-03-31,Texas Rangers,5,4,4,2,7,0,0,.438,.471,.875,1.346
+2025-04-01,Texas Rangers,4,0,0,0,0,0,0,.350,.381,.700,1.081
+2025-04-02,Texas Rangers,4,0,1,0,0,0,2,.333,.360,.667,1.027
+2025-04-03,Milwaukee Brewers,4,0,0,0,0,0,1,.286,.310,.571,.881
+2025-04-04,Milwaukee Brewers,4,0,0,0,0,0,1,.250,.273,.500,.773
+2025-04-05,Milwaukee Brewers,4,1,1,0,2,1,0,.250,.289,.472,.761
+2025-04-06,Milwaukee Brewers,4,0,1,0,0,0,3,.250,.286,.450,.736

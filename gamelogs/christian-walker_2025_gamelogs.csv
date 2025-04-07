@@ -1,0 +1,10 @@
+date,opponent,atBats,runs,hits,homeRuns,rbi,baseOnBalls,strikeOuts,avg,obp,slg,ops
+2025-03-27,New York Mets,4,1,1,0,0,0,0,.250,.250,.250,.500
+2025-03-28,New York Mets,4,0,0,0,0,0,2,.125,.125,.125,.250
+2025-03-29,New York Mets,4,0,0,0,0,0,2,.083,.083,.083,.166
+2025-03-31,San Francisco Giants,4,0,1,0,0,0,1,.125,.125,.125,.250
+2025-04-01,San Francisco Giants,4,0,1,0,0,0,1,.150,.150,.150,.300
+2025-04-02,San Francisco Giants,4,0,0,0,0,0,3,.125,.125,.125,.250
+2025-04-03,Minnesota Twins,3,2,2,1,1,0,0,.185,.214,.296,.510
+2025-04-05,Minnesota Twins,4,0,0,0,0,0,2,.161,.188,.258,.446
+2025-04-06,Minnesota Twins,5,0,2,0,0,0,2,.194,.216,.306,.522

@@ -1,0 +1,9 @@
+date,opponent,atBats,runs,hits,homeRuns,rbi,baseOnBalls,strikeOuts,avg,obp,slg,ops
+2025-03-27,Philadelphia Phillies,3,1,0,0,0,1,0,.000,.250,.000,.250
+2025-03-29,Philadelphia Phillies,5,0,0,0,0,0,5,.000,.111,.000,.111
+2025-03-30,Philadelphia Phillies,3,0,0,0,0,0,3,.000,.083,.000,.083
+2025-03-31,Toronto Blue Jays,4,0,0,0,0,0,2,.000,.063,.000,.063
+2025-04-02,Toronto Blue Jays,3,0,0,0,0,0,0,.000,.053,.000,.053
+2025-04-04,Arizona Diamondbacks,4,0,1,0,0,0,0,.045,.087,.045,.132
+2025-04-05,Arizona Diamondbacks,3,0,0,0,0,0,2,.040,.077,.040,.117
+2025-04-06,Arizona Diamondbacks,4,1,2,0,0,0,1,.103,.133,.103,.236

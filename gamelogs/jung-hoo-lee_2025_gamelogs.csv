@@ -1,0 +1,9 @@
+date,opponent,atBats,runs,hits,homeRuns,rbi,baseOnBalls,strikeOuts,avg,obp,slg,ops
+2025-03-27,Cincinnati Reds,2,2,0,0,0,2,2,.000,.500,.000,.500
+2025-03-29,Cincinnati Reds,4,0,1,0,1,0,0,.167,.375,.167,.542
+2025-03-30,Cincinnati Reds,4,2,2,0,1,0,1,.300,.417,.400,.817
+2025-03-31,Houston Astros,4,2,1,0,0,1,0,.286,.412,.429,.841
+2025-04-01,Houston Astros,4,0,1,0,0,0,0,.278,.381,.444,.825
+2025-04-04,Seattle Mariners,6,1,1,0,1,0,2,.250,.333,.375,.708
+2025-04-05,Seattle Mariners,4,2,3,0,0,0,0,.321,.387,.500,.887
+2025-04-06,Seattle Mariners,4,1,2,0,0,0,1,.344,.400,.531,.931

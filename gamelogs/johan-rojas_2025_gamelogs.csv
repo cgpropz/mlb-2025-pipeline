@@ -1,0 +1,5 @@
+date,opponent,atBats,runs,hits,homeRuns,rbi,baseOnBalls,strikeOuts,avg,obp,slg,ops
+2025-03-29,Washington Nationals,1,0,1,0,1,0,0,1.000,1.000,1.000,2.000
+2025-03-30,Washington Nationals,3,0,1,0,0,0,0,.500,.500,.500,1.000
+2025-03-31,Colorado Rockies,0,0,0,0,0,0,0,.500,.500,.500,1.000
+2025-04-02,Colorado Rockies,2,0,2,0,0,1,0,.667,.714,.667,1.381

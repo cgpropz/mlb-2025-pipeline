@@ -1,0 +1,8 @@
+date,opponent,atBats,runs,hits,homeRuns,rbi,baseOnBalls,strikeOuts,avg,obp,slg,ops
+2025-03-27,Kansas City Royals,4,0,1,0,1,0,1,.250,.200,.250,.450
+2025-03-31,San Diego Padres,4,0,0,0,0,0,0,.125,.111,.125,.236
+2025-04-01,San Diego Padres,0,0,0,0,0,1,0,.125,.200,.125,.325
+2025-04-02,San Diego Padres,1,0,0,0,0,0,0,.111,.182,.111,.293
+2025-04-04,Los Angeles Angels,2,0,0,0,0,0,1,.091,.154,.091,.245
+2025-04-05,Los Angeles Angels,1,0,0,0,0,0,0,.083,.143,.083,.226
+2025-04-06,Los Angeles Angels,4,0,0,0,0,0,1,.063,.111,.063,.174

@@ -1,0 +1,7 @@
+date,opponent,atBats,runs,hits,homeRuns,rbi,baseOnBalls,strikeOuts,avg,obp,slg,ops
+2025-03-27,Seattle Mariners,1,1,0,0,0,2,0,.000,.500,.000,.500
+2025-03-29,Seattle Mariners,3,0,0,0,0,0,2,.000,.000,.000,.000
+2025-04-01,Chicago Cubs,5,0,1,0,0,0,1,.111,.200,.200,.400
+2025-04-02,Chicago Cubs,4,0,1,0,0,0,1,.154,.250,.250,.500
+2025-04-04,Colorado Rockies,4,0,2,0,0,0,0,.235,.500,.500,1.000
+2025-04-05,Colorado Rockies,5,1,2,1,0,1,0,.273,.500,1.000,1.500

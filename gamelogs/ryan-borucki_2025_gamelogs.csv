@@ -1,0 +1,7 @@
+date,opponent,atBats,runs,hits,homeRuns,rbi,baseOnBalls,strikeOuts,avg,obp,slg,ops
+2025-03-27,Miami Marlins,1,0,0,0,0,0,1,.000,.000,.000,.000
+2025-03-28,Miami Marlins,3,0,1,0,0,0,1,.250,.333,.333,.666
+2025-03-31,Tampa Bay Rays,5,0,0,0,0,1,3,.111,.167,.000,.167
+2025-04-02,Tampa Bay Rays,1,0,0,0,0,0,1,.100,.000,.000,.000
+2025-04-05,New York Yankees,5,1,2,0,0,0,0,.200,.400,.600,1.000
+2025-04-06,New York Yankees,5,3,3,0,0,1,1,.300,.667,.800,1.467

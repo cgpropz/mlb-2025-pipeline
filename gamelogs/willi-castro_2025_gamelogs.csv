@@ -1,0 +1,10 @@
+date,opponent,atBats,runs,hits,homeRuns,rbi,baseOnBalls,strikeOuts,avg,obp,slg,ops
+2025-03-27,St. Louis Cardinals,3,0,1,0,1,1,2,.333,.500,.667,1.167
+2025-03-29,St. Louis Cardinals,3,0,1,0,1,0,0,.333,.429,.667,1.096
+2025-03-30,St. Louis Cardinals,4,1,2,1,1,0,0,.400,.455,1.000,1.455
+2025-03-31,Chicago White Sox,4,0,1,0,0,0,2,.357,.400,.786,1.186
+2025-04-01,Chicago White Sox,3,1,0,0,0,0,0,.294,.368,.647,1.015
+2025-04-02,Chicago White Sox,3,1,0,0,0,0,0,.250,.348,.550,.898
+2025-04-03,Houston Astros,3,0,1,0,0,0,1,.261,.346,.522,.868
+2025-04-05,Houston Astros,3,0,0,0,0,1,2,.231,.333,.462,.795
+2025-04-06,Houston Astros,5,1,1,0,0,0,1,.226,.314,.419,.733

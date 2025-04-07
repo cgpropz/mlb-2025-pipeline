@@ -1,0 +1,10 @@
+date,opponent,atBats,runs,hits,homeRuns,rbi,baseOnBalls,strikeOuts,avg,obp,slg,ops
+2025-03-27,Minnesota Twins,3,0,0,0,0,0,1,.000,.000,.000,.000
+2025-03-29,Minnesota Twins,3,0,0,0,0,1,2,.000,.143,.000,.143
+2025-03-30,Minnesota Twins,3,0,0,0,0,1,2,.000,.182,.000,.182
+2025-03-31,Los Angeles Angels,5,0,0,0,0,0,2,.000,.125,.000,.125
+2025-04-01,Los Angeles Angels,4,1,0,0,0,1,1,.000,.143,.000,.143
+2025-04-02,Los Angeles Angels,4,2,2,0,0,0,2,.091,.200,.091,.291
+2025-04-04,Boston Red Sox,4,1,2,0,0,0,0,.154,.241,.154,.395
+2025-04-06,Boston Red Sox,3,1,2,0,1,1,1,.207,.324,.207,.531
+2025-04-06,Boston Red Sox,4,1,2,0,1,0,1,.242,.342,.242,.584

@@ -1,0 +1,10 @@
+date,opponent,atBats,runs,hits,homeRuns,rbi,baseOnBalls,strikeOuts,avg,obp,slg,ops
+2025-03-27,Milwaukee Brewers,4,0,0,0,0,0,2,.000,.000,.000,.000
+2025-03-29,Milwaukee Brewers,3,3,2,1,1,1,0,.286,.444,.857,1.301
+2025-03-30,Milwaukee Brewers,5,2,3,0,1,0,1,.417,.500,.750,1.250
+2025-04-01,Arizona Diamondbacks,4,0,0,0,0,0,1,.313,.389,.563,.952
+2025-04-02,Arizona Diamondbacks,4,0,0,0,0,0,2,.250,.318,.450,.768
+2025-04-03,Arizona Diamondbacks,0,0,0,0,0,1,0,.250,.348,.450,.798
+2025-04-04,Pittsburgh Pirates,5,1,2,0,0,0,1,.280,.357,.440,.797
+2025-04-05,Pittsburgh Pirates,4,1,3,0,1,1,0,.345,.424,.517,.941
+2025-04-06,Pittsburgh Pirates,5,0,1,0,0,0,1,.324,.395,.471,.866

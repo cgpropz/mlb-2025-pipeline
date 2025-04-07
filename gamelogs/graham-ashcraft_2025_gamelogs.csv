@@ -1,0 +1,5 @@
+date,opponent,atBats,runs,hits,homeRuns,rbi,baseOnBalls,strikeOuts,avg,obp,slg,ops
+2025-03-29,San Francisco Giants,4,0,2,0,0,0,0,.500,.500,.500,1.000
+2025-04-03,Milwaukee Brewers,3,0,1,0,0,1,0,.429,.500,.333,.833
+2025-04-04,Milwaukee Brewers,1,0,0,0,0,0,0,.375,.000,.000,.000
+2025-04-06,Milwaukee Brewers,3,0,0,0,0,0,1,.273,.000,.000,.000

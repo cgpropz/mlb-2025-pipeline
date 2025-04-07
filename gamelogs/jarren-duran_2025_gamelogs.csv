@@ -1,0 +1,11 @@
+date,opponent,atBats,runs,hits,homeRuns,rbi,baseOnBalls,strikeOuts,avg,obp,slg,ops
+2025-03-27,Texas Rangers,4,0,1,0,0,0,1,.250,.250,.250,.500
+2025-03-28,Texas Rangers,4,0,2,0,0,0,0,.375,.375,.375,.750
+2025-03-29,Texas Rangers,4,0,0,0,0,1,1,.250,.308,.250,.558
+2025-03-30,Texas Rangers,4,0,1,0,0,0,1,.250,.333,.313,.646
+2025-03-31,Baltimore Orioles,5,0,2,0,3,0,1,.286,.348,.429,.777
+2025-04-02,Baltimore Orioles,5,0,0,0,0,0,2,.231,.286,.346,.632
+2025-04-03,Baltimore Orioles,4,0,0,0,1,0,2,.200,.242,.300,.542
+2025-04-04,St. Louis Cardinals,6,1,2,0,1,0,0,.222,.256,.306,.562
+2025-04-06,St. Louis Cardinals,5,0,0,0,0,0,2,.195,.227,.268,.495
+2025-04-06,St. Louis Cardinals,5,3,3,0,2,0,1,.239,.265,.326,.591

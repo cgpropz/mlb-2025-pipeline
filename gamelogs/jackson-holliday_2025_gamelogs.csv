@@ -1,0 +1,9 @@
+date,opponent,atBats,runs,hits,homeRuns,rbi,baseOnBalls,strikeOuts,avg,obp,slg,ops
+2025-03-27,Toronto Blue Jays,5,1,1,0,0,0,2,.200,.200,.200,.400
+2025-03-28,Toronto Blue Jays,3,1,2,1,1,0,1,.375,.375,.750,1.125
+2025-03-29,Toronto Blue Jays,3,1,0,0,0,1,1,.273,.333,.545,.878
+2025-03-30,Toronto Blue Jays,4,0,1,0,0,0,3,.267,.313,.467,.780
+2025-03-31,Boston Red Sox,4,0,2,0,1,0,1,.316,.350,.474,.824
+2025-04-03,Boston Red Sox,4,1,1,0,0,0,0,.304,.333,.478,.811
+2025-04-04,Kansas City Royals,3,0,0,0,0,0,0,.269,.296,.423,.719
+2025-04-05,Kansas City Royals,4,0,3,0,2,0,0,.333,.355,.533,.888

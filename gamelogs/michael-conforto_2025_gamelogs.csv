@@ -1,0 +1,10 @@
+date,opponent,atBats,runs,hits,homeRuns,rbi,baseOnBalls,strikeOuts,avg,obp,slg,ops
+2025-03-18,Chicago Cubs,4,0,1,0,0,0,1,.250,.250,.500,.750
+2025-03-19,Chicago Cubs,3,0,1,0,0,1,1,.286,.375,.429,.804
+2025-03-28,Detroit Tigers,4,1,1,0,1,0,1,.273,.333,.455,.788
+2025-03-29,Detroit Tigers,3,1,1,0,1,1,1,.286,.375,.500,.875
+2025-03-31,Atlanta Braves,3,0,1,0,1,1,2,.294,.400,.529,.929
+2025-04-02,Atlanta Braves,2,3,2,1,1,2,0,.368,.500,.737,1.237
+2025-04-04,Philadelphia Phillies,3,0,0,0,0,0,1,.318,.444,.636,1.080
+2025-04-05,Philadelphia Phillies,4,1,1,1,1,0,0,.308,.419,.692,1.111
+2025-04-06,Philadelphia Phillies,3,0,0,0,0,0,1,.276,.400,.621,1.021

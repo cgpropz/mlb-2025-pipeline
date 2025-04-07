@@ -1,0 +1,8 @@
+date,opponent,atBats,runs,hits,homeRuns,rbi,baseOnBalls,strikeOuts,avg,obp,slg,ops
+2025-03-18,Los Angeles Dodgers,1,0,0,0,0,0,0,.000,.000,.000,.000
+2025-03-19,Los Angeles Dodgers,0,0,0,0,0,1,0,.000,.500,.000,.500
+2025-03-30,Arizona Diamondbacks,2,0,0,0,0,1,0,.000,.400,.000,.400
+2025-04-01,Athletics,2,0,1,0,1,0,0,.200,.429,.200,.629
+2025-04-02,Athletics,5,1,1,0,0,0,1,.200,.333,.200,.533
+2025-04-04,San Diego Padres,1,0,1,0,1,0,0,.273,.429,.273,.702
+2025-04-06,San Diego Padres,4,0,0,0,1,0,2,.200,.316,.200,.516

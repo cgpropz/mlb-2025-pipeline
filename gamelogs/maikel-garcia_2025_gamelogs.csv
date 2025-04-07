@@ -1,0 +1,10 @@
+date,opponent,atBats,runs,hits,homeRuns,rbi,baseOnBalls,strikeOuts,avg,obp,slg,ops
+2025-03-27,Cleveland Guardians,2,0,1,0,0,0,1,.500,.500,.500,1.000
+2025-03-29,Cleveland Guardians,4,1,2,1,1,0,0,.500,.500,1.000,1.500
+2025-03-30,Cleveland Guardians,4,0,1,0,0,0,1,.400,.400,.800,1.200
+2025-03-31,Milwaukee Brewers,3,2,1,1,2,2,0,.385,.467,.923,1.390
+2025-04-01,Milwaukee Brewers,4,0,1,0,0,0,1,.353,.421,.824,1.245
+2025-04-02,Milwaukee Brewers,0,0,0,0,0,0,0,.353,.421,.824,1.245
+2025-04-04,Baltimore Orioles,4,1,2,0,3,0,1,.381,.435,.810,1.245
+2025-04-05,Baltimore Orioles,4,0,0,0,0,0,1,.320,.370,.680,1.050
+2025-04-06,Baltimore Orioles,4,1,2,0,0,0,1,.345,.387,.655,1.042

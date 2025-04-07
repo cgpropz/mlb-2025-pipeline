@@ -1,0 +1,7 @@
+date,opponent,atBats,runs,hits,homeRuns,rbi,baseOnBalls,strikeOuts,avg,obp,slg,ops
+2025-03-27,Los Angeles Angels,3,1,1,1,1,0,0,.333,.333,1.333,1.666
+2025-03-30,Los Angeles Angels,1,0,0,0,0,0,0,.250,.250,1.000,1.250
+2025-03-31,Minnesota Twins,2,0,1,0,0,0,0,.333,.333,.833,1.166
+2025-04-01,Minnesota Twins,2,0,0,0,0,0,1,.250,.250,.625,.875
+2025-04-02,Minnesota Twins,1,0,0,0,0,0,0,.222,.222,.556,.778
+2025-04-04,Detroit Tigers,2,1,1,0,0,0,1,.273,.273,.636,.909

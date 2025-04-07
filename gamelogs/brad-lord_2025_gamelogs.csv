@@ -1,0 +1,4 @@
+date,opponent,atBats,runs,hits,homeRuns,rbi,baseOnBalls,strikeOuts,avg,obp,slg,ops
+2025-03-30,Philadelphia Phillies,1,1,1,0,0,2,0,1.000,1.000,1.000,2.000
+2025-03-31,Toronto Blue Jays,3,0,1,0,0,0,0,.500,.333,.333,.666
+2025-04-02,Toronto Blue Jays,5,1,1,0,0,0,0,.333,.200,.400,.600

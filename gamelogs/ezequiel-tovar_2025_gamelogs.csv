@@ -1,0 +1,10 @@
+date,opponent,atBats,runs,hits,homeRuns,rbi,baseOnBalls,strikeOuts,avg,obp,slg,ops
+2025-03-28,Tampa Bay Rays,4,0,2,0,1,0,1,.500,.500,.750,1.250
+2025-03-29,Tampa Bay Rays,4,0,0,0,0,0,1,.250,.250,.375,.625
+2025-03-30,Tampa Bay Rays,4,0,1,0,0,0,0,.250,.250,.333,.583
+2025-03-31,Philadelphia Phillies,4,0,0,0,0,0,0,.188,.188,.250,.438
+2025-04-02,Philadelphia Phillies,4,0,0,0,0,0,2,.150,.150,.200,.350
+2025-04-03,Philadelphia Phillies,4,0,0,0,0,0,0,.125,.125,.167,.292
+2025-04-04,Athletics,5,1,3,0,0,1,2,.207,.233,.310,.543
+2025-04-05,Athletics,5,0,1,0,0,0,2,.206,.229,.324,.553
+2025-04-06,Athletics,5,3,4,0,3,0,1,.282,.300,.436,.736

@@ -1,0 +1,8 @@
+date,opponent,atBats,runs,hits,homeRuns,rbi,baseOnBalls,strikeOuts,avg,obp,slg,ops
+2025-03-27,Pittsburgh Pirates,4,0,1,0,0,0,1,.250,.250,.250,.500
+2025-03-28,Pittsburgh Pirates,2,0,1,0,1,0,0,.333,.333,.500,.833
+2025-03-31,New York Mets,3,1,1,0,0,1,2,.333,.400,.556,.956
+2025-04-01,New York Mets,3,0,1,0,2,0,1,.333,.385,.583,.968
+2025-04-02,New York Mets,5,0,0,0,0,0,1,.235,.278,.412,.690
+2025-04-04,Atlanta Braves,3,0,0,0,0,0,0,.200,.238,.350,.588
+2025-04-05,Atlanta Braves,3,0,1,0,0,1,1,.217,.280,.391,.671

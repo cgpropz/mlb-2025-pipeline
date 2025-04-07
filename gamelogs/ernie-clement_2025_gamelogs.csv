@@ -1,0 +1,11 @@
+date,opponent,atBats,runs,hits,homeRuns,rbi,baseOnBalls,strikeOuts,avg,obp,slg,ops
+2025-03-27,Baltimore Orioles,3,0,0,0,0,0,0,.000,.000,.000,.000
+2025-03-28,Baltimore Orioles,1,0,1,0,2,0,0,.250,.250,.500,.750
+2025-03-29,Baltimore Orioles,4,0,0,0,0,0,2,.125,.125,.250,.375
+2025-03-30,Baltimore Orioles,0,0,0,0,0,0,0,.125,.125,.250,.375
+2025-03-31,Washington Nationals,1,0,1,0,0,1,0,.222,.300,.333,.633
+2025-04-01,Washington Nationals,3,0,0,0,1,0,1,.167,.231,.250,.481
+2025-04-02,Washington Nationals,2,0,0,0,1,1,1,.143,.235,.214,.449
+2025-04-04,New York Mets,3,0,0,0,0,0,1,.118,.200,.176,.376
+2025-04-05,New York Mets,0,0,0,0,0,0,0,.118,.200,.176,.376
+2025-04-06,New York Mets,2,0,0,0,0,2,0,.105,.250,.158,.408

@@ -1,0 +1,5 @@
+date,opponent,atBats,runs,hits,homeRuns,rbi,baseOnBalls,strikeOuts,avg,obp,slg,ops
+2025-04-01,Toronto Blue Jays,3,1,2,0,0,1,0,.667,.750,1.000,1.750
+2025-04-02,Toronto Blue Jays,3,0,0,0,0,0,0,.333,.429,.500,.929
+2025-04-05,Arizona Diamondbacks,2,0,2,0,2,1,0,.500,.600,.625,1.225
+2025-04-06,Arizona Diamondbacks,3,0,2,0,1,1,1,.545,.643,.636,1.279

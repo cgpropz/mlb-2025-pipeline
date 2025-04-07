@@ -1,0 +1,11 @@
+date,opponent,atBats,runs,hits,homeRuns,rbi,baseOnBalls,strikeOuts,avg,obp,slg,ops
+2025-03-27,Atlanta Braves,3,0,1,0,0,1,1,.333,.500,.333,.833
+2025-03-28,Atlanta Braves,4,1,1,0,1,0,1,.286,.375,.429,.804
+2025-03-29,Atlanta Braves,1,0,0,0,0,1,1,.250,.455,.375,.830
+2025-03-30,Atlanta Braves,3,1,1,0,1,1,2,.273,.467,.455,.922
+2025-03-31,Cleveland Guardians,3,2,1,0,0,1,1,.286,.474,.429,.903
+2025-04-01,Cleveland Guardians,4,0,1,0,1,0,1,.278,.435,.389,.824
+2025-04-02,Cleveland Guardians,4,0,0,0,0,0,0,.227,.370,.318,.688
+2025-04-04,Chicago Cubs,3,0,0,0,0,1,0,.200,.355,.280,.635
+2025-04-05,Chicago Cubs,3,0,1,0,0,1,1,.214,.371,.286,.657
+2025-04-06,Chicago Cubs,5,0,2,0,1,0,0,.242,.375,.303,.678

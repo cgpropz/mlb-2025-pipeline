@@ -1,0 +1,7 @@
+date,opponent,atBats,runs,hits,homeRuns,rbi,baseOnBalls,strikeOuts,avg,obp,slg,ops
+2025-03-27,Athletics,3,0,0,0,0,0,2,.000,.250,.000,.250
+2025-03-29,Athletics,2,1,1,0,0,0,1,.200,.333,.200,.533
+2025-03-31,Detroit Tigers,3,0,0,0,0,0,1,.125,.222,.125,.347
+2025-04-01,Detroit Tigers,2,0,0,0,1,0,1,.100,.167,.100,.267
+2025-04-04,San Francisco Giants,2,0,0,0,0,1,0,.083,.200,.083,.283
+2025-04-06,San Francisco Giants,3,0,0,0,0,0,0,.067,.167,.067,.234

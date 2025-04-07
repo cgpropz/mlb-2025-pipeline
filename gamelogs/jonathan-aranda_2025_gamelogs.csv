@@ -1,0 +1,9 @@
+date,opponent,atBats,runs,hits,homeRuns,rbi,baseOnBalls,strikeOuts,avg,obp,slg,ops
+2025-03-28,Colorado Rockies,0,0,0,0,1,0,0,.000,.000,.000,.000
+2025-03-29,Colorado Rockies,3,0,2,0,0,0,1,.667,.500,1.333,1.833
+2025-03-30,Colorado Rockies,3,1,1,0,0,0,0,.500,.500,1.000,1.500
+2025-03-31,Pittsburgh Pirates,3,1,2,0,0,1,1,.556,.583,1.000,1.583
+2025-04-02,Pittsburgh Pirates,3,0,0,0,0,1,2,.417,.500,.750,1.250
+2025-04-04,Texas Rangers,4,0,0,0,0,0,2,.313,.400,.563,.963
+2025-04-05,Texas Rangers,4,1,2,1,2,0,0,.350,.417,.750,1.167
+2025-04-06,Texas Rangers,4,1,1,0,0,0,1,.333,.393,.667,1.060

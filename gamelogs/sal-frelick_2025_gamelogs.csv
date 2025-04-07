@@ -1,0 +1,11 @@
+date,opponent,atBats,runs,hits,homeRuns,rbi,baseOnBalls,strikeOuts,avg,obp,slg,ops
+2025-03-27,New York Yankees,4,0,2,0,0,0,1,.500,.500,.500,1.000
+2025-03-29,New York Yankees,3,1,1,0,0,1,0,.429,.556,.429,.985
+2025-03-30,New York Yankees,4,0,2,0,1,0,1,.455,.538,.455,.993
+2025-03-31,Kansas City Royals,3,0,1,0,0,1,0,.429,.529,.429,.958
+2025-04-01,Kansas City Royals,4,0,0,0,0,0,2,.333,.429,.333,.762
+2025-04-02,Kansas City Royals,4,0,0,0,0,1,2,.273,.385,.273,.658
+2025-04-03,Cincinnati Reds,3,0,2,0,1,0,0,.320,.414,.320,.734
+2025-04-04,Cincinnati Reds,3,1,1,0,0,1,0,.321,.424,.321,.745
+2025-04-05,Cincinnati Reds,5,2,4,0,1,0,0,.394,.474,.485,.959
+2025-04-06,Cincinnati Reds,4,1,1,0,0,0,0,.378,.452,.459,.911

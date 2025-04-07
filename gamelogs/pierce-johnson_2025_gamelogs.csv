@@ -1,0 +1,4 @@
+date,opponent,atBats,runs,hits,homeRuns,rbi,baseOnBalls,strikeOuts,avg,obp,slg,ops
+2025-03-28,San Diego Padres,3,0,0,0,0,0,1,.000,.000,.000,.000
+2025-04-01,Los Angeles Dodgers,4,0,1,0,0,0,2,.143,.250,.250,.500
+2025-04-02,Los Angeles Dodgers,2,0,1,0,0,1,1,.222,.667,.500,1.167

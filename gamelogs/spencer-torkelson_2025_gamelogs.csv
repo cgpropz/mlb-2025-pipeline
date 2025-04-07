@@ -1,0 +1,10 @@
+date,opponent,atBats,runs,hits,homeRuns,rbi,baseOnBalls,strikeOuts,avg,obp,slg,ops
+2025-03-27,Los Angeles Dodgers,1,2,1,1,1,4,0,1.000,1.000,4.000,5.000
+2025-03-28,Los Angeles Dodgers,5,0,2,0,0,0,2,.500,.700,1.167,1.867
+2025-03-29,Los Angeles Dodgers,3,1,1,0,0,1,2,.444,.643,.889,1.532
+2025-03-31,Seattle Mariners,5,1,2,0,0,0,1,.429,.579,.714,1.293
+2025-04-01,Seattle Mariners,4,0,1,0,1,0,2,.389,.522,.667,1.189
+2025-04-02,Seattle Mariners,4,0,0,0,0,0,2,.318,.444,.545,.989
+2025-04-04,Chicago White Sox,3,1,1,0,1,1,2,.320,.469,.520,.989
+2025-04-05,Chicago White Sox,4,1,2,1,1,0,1,.345,.472,.655,1.127
+2025-04-06,Chicago White Sox,5,0,1,0,2,0,1,.324,.439,.618,1.057

@@ -1,0 +1,10 @@
+date,opponent,atBats,runs,hits,homeRuns,rbi,baseOnBalls,strikeOuts,avg,obp,slg,ops
+2025-03-27,Chicago Cubs,1,0,0,0,0,1,1,.000,.500,.000,.500
+2025-03-28,Chicago Cubs,4,2,3,0,1,0,1,.600,.667,1.000,1.667
+2025-03-29,Chicago Cubs,1,0,0,0,0,0,1,.500,.571,.833,1.404
+2025-03-30,Chicago Cubs,1,0,1,0,0,0,0,.571,.625,1.000,1.625
+2025-04-01,New York Yankees,2,1,0,0,0,2,2,.444,.583,.778,1.361
+2025-04-03,New York Yankees,4,1,0,0,0,1,2,.308,.471,.538,1.009
+2025-04-04,Washington Nationals,3,0,1,0,0,0,2,.313,.450,.500,.950
+2025-04-05,Washington Nationals,1,0,0,0,0,0,0,.294,.429,.471,.900
+2025-04-06,Washington Nationals,3,0,2,0,1,0,1,.350,.458,.500,.958

@@ -1,0 +1,7 @@
+date,opponent,atBats,runs,hits,homeRuns,rbi,baseOnBalls,strikeOuts,avg,obp,slg,ops
+2025-03-27,Houston Astros,1,0,0,0,0,0,1,.000,.000,.000,.000
+2025-03-29,Houston Astros,0,0,0,0,0,0,0,.000,.000,.000,.000
+2025-03-31,Miami Marlins,0,0,0,0,0,0,0,.000,.000,.000,.000
+2025-04-02,Miami Marlins,2,0,1,0,0,0,0,.333,.333,.667,1.000
+2025-04-05,Toronto Blue Jays,2,0,0,0,0,0,1,.200,.200,.400,.600
+2025-04-06,Toronto Blue Jays,2,1,1,0,0,1,0,.286,.375,.429,.804
