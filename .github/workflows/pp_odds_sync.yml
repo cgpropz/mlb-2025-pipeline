@@ -1,0 +1,31 @@
+name: Sync MLB PrizePicks Odds
+
+on:
+  schedule:
+    - cron: "*/20 * * * *"  # every 20 minutes UTC
+  workflow_dispatch:       # manual run option
+
+jobs:
+  run-odds-sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.9
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Write Google credentials from secret
+        run: |
+          echo "${{ secrets.GSHEET_CREDS }}" | base64 --decode > credentials.json
+
+      - name: Run MLB Odds Scraper
+        run: python mlb_prizepicks_sync.py
