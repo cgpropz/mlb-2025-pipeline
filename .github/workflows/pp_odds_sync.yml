@@ -2,7 +2,7 @@ name: Sync MLB PP Odds to Google Sheets
 
 on:
   schedule:
-    - cron: '*/20 * * * *'  # every 20 minutes
+    - cron: '*/10 * * * *'  # every 10 minutes
   workflow_dispatch:       # manual trigger
 
 jobs:
