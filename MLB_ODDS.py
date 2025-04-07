@@ -1,79 +1,84 @@
 import requests
 import pandas as pd
-import sys
-print(f"Using Python executable: {sys.executable}")
-print(f"Python version: {sys.version}")
-
-
-
+from google.oauth2 import service_account
+from googleapiclient.discovery import build
 
 def dfs_scraper():
-    
-    # Fetch data from Prizepicks API
-    response = requests.get('https://partner-api.prizepicks.com/projections?per_page=1000')
-    prizepicks = response.json()
+    print("[+] Fetching data from PrizePicks API...")
+    url = "https://api.prizepicks.com/projections?per_page=1000"
+    response = requests.get(url)
+    projections = response.json()
 
-    # Initialize List and Dictionaries to Store Data
-    pplist = []
-    library = {}
+    # Prep lookup tables
+    player_id_map = {}
+    league_map = {}
 
-    for included in prizepicks['included']:
-        if 'attributes' in included and 'name' in included['attributes']:
-            PPname_id = included['id']
-            PPname = included['attributes']['name']
-            if 'team' in included['attributes']:
-                ppteam = included['attributes']['team']
-            else:
-                ppteam = 'N/A'
-            if 'league' in included['attributes']:
-                ppleague = included['attributes']['league']
-            else:
-                ppleague = 'N/A'
-            library[PPname_id] = {'name': PPname, 'team': ppteam, 'league': ppleague}
+    for included in projections["included"]:
+        if included["type"] == "new_player":
+            pid = included["id"]
+            name = included["attributes"]["name"]
+            player_id_map[pid] = name
+        elif included["type"] == "league":
+            lid = included["id"]
+            league = included["attributes"]["name"]
+            league_map[lid] = league
 
-    for ppdata in prizepicks['data']:
-        PPid = ppdata.get('relationships', {}).get('new_player', {}).get('data', {}).get('id', 'N/A')
-        PPprop_value = ppdata.get('attributes', {}).get('line_score', 'N/A')
-        PPprop_type = ppdata.get('attributes', {}).get('stat_type', 'N/A')
-        versus_team = ppdata.get('attributes', {}).get('description', 'N/A')
-        odds_type = ppdata.get('attributes', {}).get('odds_type', 'N/A')
+    data = []
+    for item in projections["data"]:
+        attr = item["attributes"]
+        player_id = item["relationships"]["new_player"]["data"]["id"]
+        league_id = item["relationships"]["league"]["data"]["id"]
+        team = attr.get("team", "N/A")
+        stat = attr.get("stat_type", "N/A")
+        line = attr.get("line_score", "N/A")
+        type_ = attr.get("projection_type", "N/A")
 
+        data.append({
+            "Player": player_id_map.get(player_id, "N/A"),
+            "League": league_map.get(league_id, "N/A"),
+            "Team": team,
+            "Stat": stat,
+            "Line": line,
+            "Type": type_
+        })
 
-        ppinfo = {"name_id": PPid, "Stat": PPprop_type, "Prizepicks": PPprop_value, "Versus": versus_team, "Odds Type": odds_type}
-        pplist.append(ppinfo)
+    return pd.DataFrame(data)
 
-    for element in pplist:
-        name_id = element['name_id']
-        if name_id in library:
-            player_data = library[name_id]
-            element['Name'] = player_data['name']
-            element['Team'] = player_data['team']
-            element['League'] = player_data['league']
-        else:
-            element['Name'] = "Unknown"
-            element['Team'] = "N/A"
-            element['League'] = "N/A"
-        del element['name_id']
+def update_google_sheets(df):
+    print("[+] Authenticating and pushing data to Google Sheets...")
 
-    rows = []
-    for element in pplist:
-        name = element['Name']
-        league = element['League']
-        team = element['Team']
-        stat = element['Stat']
-        versus_team = element['Versus']
-        odds_type = element['Odds Type']
+    # Set your own sheet ID and tab name here
+    SPREADSHEET_ID = "1X6dMVxb7vPITaONfXdrNVj0sDAKsLmxj0NYpzDfK5Gc"
+    SHEET_RANGE = "PP_ODDS!A1"
 
-        prizepicks_value = element['Prizepicks']
-        if league == 'MLB' and '+' not in name:
-            rows.append((name, league, team, stat, versus_team, prizepicks_value,odds_type))
+    # Load creds
+    creds = service_account.Credentials.from_service_account_file(
+        "credentials.json",
+        scopes=["https://www.googleapis.com/auth/spreadsheets"]
+    )
+    service = build("sheets", "v4", credentials=creds)
+    sheet = service.spreadsheets()
 
-    df = pd.DataFrame(rows, columns=['Name', 'League', 'Team', 'Stat', 'Versus', 'Prizepicks', 'Odds Type'])
-    df.to_csv('MLB_odds_2025.csv',index=False)
-    print("Data Saved...")
-    return df
-    
-    
-    
+    # Prepare data
+    values = [df.columns.tolist()] + df.values.tolist()
 
-dfs_scraper()
+    # Clear existing values
+    sheet.values().clear(
+        spreadsheetId=SPREADSHEET_ID,
+        range=SHEET_RANGE
+    ).execute()
+
+    # Upload new data
+    sheet.values().update(
+        spreadsheetId=SPREADSHEET_ID,
+        range=SHEET_RANGE,
+        valueInputOption="RAW",
+        body={"values": values}
+    ).execute()
+
+    print("[+] Sheet successfully updated!")
+
+if __name__ == "__main__":
+    df = dfs_scraper()
+    update_google_sheets(df)
+
