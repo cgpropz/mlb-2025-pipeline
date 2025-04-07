@@ -22,7 +22,8 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Write Google credentials from secret
-        run: printf '%s' "${{ secrets.GOOGLE_CREDS_JSON }}" > credentials.json
+        run: |
+          printf '%s' "${{ secrets.GOOGLE_CREDS_JSON }}" > credentials.json
 
 
       - name: Scrape gamelogs
