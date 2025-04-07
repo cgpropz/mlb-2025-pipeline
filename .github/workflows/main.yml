@@ -2,7 +2,8 @@ name: Daily MLB Scraper & Sheets Sync
 
 on:
   schedule:
-    - cron: '0 3 * * *'   # 3:00 AM UTC daily
+    - cron: '0 * * * *'  # Every hour
+
   workflow_dispatch:
 
 jobs:
@@ -26,6 +27,8 @@ jobs:
           echo "${{ secrets.GOOGLE_CREDS_JSON }}" | base64 --decode > credentials.json
 
 
+      - name: Track Roster & Injury Updates
+        run: python roster_scraper.py
 
 
       - name: Scrape gamelogs
