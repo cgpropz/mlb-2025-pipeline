@@ -21,8 +21,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run script
-        env:
-          GOOGLE_APPLICATION_CREDENTIALS_JSON: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS_JSON }}
         run: |
-          echo "$GOOGLE_APPLICATION_CREDENTIALS_JSON" > credentials.json
+          echo "${{ secrets.GSHEET_CREDS }}" | base64 --decode > credentials.json
           python MLB_ODDS.py
+
