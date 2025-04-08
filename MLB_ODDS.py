@@ -11,13 +11,16 @@ def dfs_scraper():
 
     # Prep lookup tables
     player_id_map = {}
+    player_team_map = {}
     league_map = {}
 
     for included in projections["included"]:
         if included["type"] == "new_player":
             pid = included["id"]
             name = included["attributes"]["name"]
+            team = included["attributes"].get("team", "N/A")
             player_id_map[pid] = name
+            player_team_map[pid] = team
         elif included["type"] == "league":
             lid = included["id"]
             league = included["attributes"]["name"]
@@ -36,7 +39,7 @@ def dfs_scraper():
         data.append({
             "Player": player_id_map.get(player_id, "N/A"),
             "League": league,
-            "Team": attr.get("description", "N/A"),  # ← TEAM comes from `description`
+            "Team": player_team_map.get(player_id, "N/A"),  # Correct team info
             "Stat": attr.get("stat_type", "N/A"),
             "Line": attr.get("line_score", "N/A"),
             "Type": attr.get("projection_type", "N/A"),
@@ -77,5 +80,3 @@ def update_google_sheets(df):
 if __name__ == "__main__":
     df = dfs_scraper()
     update_google_sheets(df)
-
-
