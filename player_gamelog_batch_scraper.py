@@ -17,17 +17,18 @@ for idx, row in players_df.iterrows():
     slug_name = slugify(name.lower())
     output_path = f"gamelogs/{slug_name}_2025_gamelogs.csv"
 
-    # Skip if already exists
-    if os.path.exists(output_path):
-        print(f"⚠️ Skipping existing: {name}")
-        continue
-
     # API Request
     url = f"https://statsapi.mlb.com/api/v1/people/{player_id}/stats?stats=gameLog&season=2025"
+    print(f"Fetching data for {name} (ID: {player_id}) from URL: {url}")  # Debugging: Print the URL
     try:
         response = requests.get(url)
         response.raise_for_status()
         data = response.json()
+
+        # Check if stats are available
+        if not data.get('stats') or len(data['stats']) == 0:
+            print(f"❌ No stats available for {name}")
+            continue
 
         # Extract gamelog
         splits = data['stats'][0].get('splits', [])
@@ -35,6 +36,7 @@ for idx, row in players_df.iterrows():
             print(f"❌ No gamelogs for {name}")
             continue
 
+        # Prepare rows for CSV
         rows = []
         for game in splits:
             stat = game['stat']
@@ -54,10 +56,12 @@ for idx, row in players_df.iterrows():
                 'ops': stat.get('ops', '0.000'),
             })
 
+        # Save to CSV (overwrite existing file)
         pd.DataFrame(rows).to_csv(output_path, index=False)
         print(f"✅ Saved {len(rows)} logs for {name}")
 
     except Exception as e:
-        print(f"🚨 Error with {name}: {e}")
+        print(f"🚨 Error with {name} (ID: {player_id}): {e}")
 
-    time.sleep(0.3)  # be nice to the API
+    # Be nice to the API
+    time.sleep(0.3)
